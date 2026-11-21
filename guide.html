@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="BikeLoggerの基本的な使い方とログの保存方法">
+<title>基本的な使い方 | BikeLogger</title>
+<style>
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,"Noto Sans JP",sans-serif;color:#24292f;background:#f6f8fa;line-height:1.85;margin:0;padding:20px}
+main{max-width:800px;margin:20px auto;background:white;padding:clamp(20px,5vw,44px);border-radius:12px}
+h1{color:#0969da;font-size:clamp(1.65rem,4vw,2rem)}
+h2{font-size:1.2rem;border-bottom:1px solid #d8dee4;padding-bottom:5px;margin-top:2rem}
+a{color:#0969da}
+ol,ul{padding-left:1.4rem}li{margin:8px 0}
+aside{background:#f6f8fa;padding:12px 16px;border-left:4px solid #0969da;border-radius:4px}
+footer{border-top:1px solid #ddd;margin-top:30px;padding-top:15px;color:#57606a}
+</style>
+</head>
+<body><main>
+<p><a href="./">BikeLogger トップページ</a></p>
+<h1>BikeLogger 基本的な使い方</h1>
+<p>BikeLoggerは、スマートフォンのセンサとGPSを使って、走行中のバンク角・速度・位置情報などを表示・記録するAndroidアプリです。</p>
+
+<h2>1. 使用前の準備</h2>
+<ol>
+<li>スマートフォンを車体または安定したホルダーに確実に固定してください。</li>
+<li>アプリを起動し、位置情報へのアクセス許可を求められたら、走行記録に必要な許可を与えてください。</li>
+<li>安全な場所で停車し、画面に表示される準備状況や音声案内を確認してください。</li>
+</ol>
+<aside>走行中にスマートフォンを手で操作したり、画面を注視したりしないでください。</aside>
+
+<h2>2. 記録開始と姿勢の校正</h2>
+<ol>
+<li>走行前、安全な場所で<strong>START</strong>を押します。</li>
+<li>端末を動かさず、画面の案内に従って基準姿勢の設定（校正）が終わるまで待ちます。</li>
+<li>サイドスタンド校正を使用する設定では、画面・音声の案内に従い、サイドスタンド姿勢での静止、車体を起こす操作、再度の静止を行います。</li>
+<li>準備完了を確認してから走行してください。</li>
+</ol>
+<p>START直後は校正準備中のことがあります。校正が完了する前の走行データは、通常の走行ログとして記録されない場合があります。</p>
+
+<h2>3. 記録停止とファイル保存</h2>
+<ol>
+<li>安全な場所に停車して<strong>STOP</strong>を押します。</li>
+<li>ZIPファイルの作成が完了するまで、アプリの保存状況を確認してください。</li>
+<li>記録ファイルは端末内の<strong>Documents/BikeLogger/</strong>に保存されます。保存先の指定機能を利用した場合は、指定先へのコピーも行われます。</li>
+</ol>
+<p>記録中は、画面を消したり他のアプリを表示したりしても記録を継続する設計です。ただし、端末の省電力制御やGPSの受信状況によって記録が途切れることがあります。</p>
+
+<h2>4. ログの確認・共有</h2>
+<p>アプリの<strong>「保存ZIP / 旧CSV」</strong>から保存済みファイルを確認できます。ZIPを選択して共有すると、端末の共有メニューから共有先アプリを選べます。</p>
+<p>ログには走行位置や時刻が含まれます。第三者に送る場合は、共有する内容を確認してください。</p>
+
+<h2>5. うまく記録できないとき</h2>
+<ul>
+<li>GPSが更新されない場合は、端末の位置情報設定、アプリの権限、空が見える場所かどうかを確認してください。</li>
+<li>バンク角が不自然な場合は、端末の固定状態を確認して、停車中に改めて基準姿勢の設定を行ってください。</li>
+<li>ZIP保存に失敗した場合は、一時CSVが残っている可能性があるため、関連ファイルを削除せずにお問い合わせください。</li>
+</ul>
+
+<h2>6. ご意見・不具合報告</h2>
+<p><a href="https://robot-jp.com/contact/">BikeLogger お問い合わせフォーム</a>からご連絡ください。アプリのバージョン、使用端末、不具合の状況があると調査しやすくなります。</p>
+
+<p>個人情報と走行記録の取り扱いは<a href="./privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+<footer>このページは公開用の基本操作ガイドです。画面構成や機能はアプリのバージョンによって異なる場合があります。</footer>
+</main></body>
+</html>
